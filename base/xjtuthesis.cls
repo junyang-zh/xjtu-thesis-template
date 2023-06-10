@@ -297,6 +297,9 @@
 
 % Interfaces, or commands
 \newcommand\xjtucover{}
+\newcommand\twodigits[1]{%
+    \ifnum#1<10 0#1\else #1\fi
+}
 \newcommand\xjtuchead{}
 \newcommand\xjtuehead{}
 \newcommand\xjtucinfopage{}
